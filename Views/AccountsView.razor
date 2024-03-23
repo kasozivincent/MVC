@@ -1,0 +1,30 @@
+﻿<style>
+    .scroller {
+        height: 160px; 
+        overflow-y: auto;
+        border: 1px solid #ccc;
+    }
+
+    .content {
+        padding: 10px;
+    }
+</style>
+<div style="display: flex; justify-content: space-between">
+    <h3>Manage All Accounts</h3>
+    <FluentLabel>@_accounts.Count accounts</FluentLabel>
+</div>
+
+<div class="scroller" style="margin-bottom: 2rem">
+    <div class="content">
+        @foreach (var account in _accounts)
+        {
+            <AccountInfo BankAccount="@account"/>
+        }
+    </div>
+</div>
+
+<FluentStack HorizontalAlignment="HorizontalAlignment.Center">
+    <FluentButton Appearance="Appearance.Accent"
+                  @onclick="AddInterest">Add Interest</FluentButton>
+</FluentStack>
+

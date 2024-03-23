@@ -1,0 +1,85 @@
+﻿<FluentCard Width="400" Height="600">
+    <div style="margin: 1rem">
+        <h3>Access an Existing Account</h3>
+
+        <div style="margin: 1.5rem">
+            <FluentStack>
+                <FluentLabel>Account#</FluentLabel>
+                <FluentSpacer Width="10"/>
+                <FluentTextField  @bind-Value="_accountNumber"></FluentTextField>
+                <FluentSpacer Width="10"/>
+                <FluentButton OnClick="@SelectAccount"
+                              Appearance="Appearance.Accent">
+                    Select Account
+                </FluentButton>
+            </FluentStack>
+
+            <div style="margin-top: 0.5rem">
+                <FluentStack>
+                    <FluentLabel>Balance</FluentLabel>
+                    <FluentSpacer Width="16"></FluentSpacer>
+                    <FluentLabel>@_balance</FluentLabel>
+                    
+                </FluentStack>
+            </div>
+
+        </div>
+
+
+        <FluentDivider Style="width: 100%; margin-top: 0.5rem"></FluentDivider>
+
+        <div style="margin: 1.5rem">
+            <FluentStack>
+                <FluentLabel>Amount to Deposit</FluentLabel>
+                <FluentSpacer Width="10"/>
+                <FluentTextField @bind-Value="_depositAmount"></FluentTextField>
+                <FluentSpacer Width="10"/>
+                <FluentButton OnClick="@DepositMoney"
+                              Appearance="Appearance.Accent">
+                    Deposit Money
+                </FluentButton>
+            </FluentStack>
+        </div>
+
+        <FluentDivider Style="width: 100%; margin-top: 0.5rem"></FluentDivider>
+
+        <div style="margin: 1.2rem">
+            <FluentStack>
+                <FluentLabel>Loan Amount</FluentLabel>
+                <FluentSpacer Width="12"/>
+                <FluentTextField @bind-Value="_loanAmount"></FluentTextField>
+                <FluentSpacer Width="12"/>
+                <FluentButton OnClick="@ApproveLoan"
+                              Appearance="Appearance.Accent">
+                    Approve Loan
+                </FluentButton>
+            </FluentStack>
+
+            <div style="margin-top: 0.8rem">
+                <FluentStack>
+                    <FluentLabel>Approve Status:</FluentLabel>
+                    <FluentSpacer Width="10"/>
+                    <FluentLabel>@_approveStatus</FluentLabel>
+                </FluentStack>
+            </div>
+
+
+            <FluentDivider Style="width: 200%; margin-top: 0.5rem"></FluentDivider>
+
+            <div style="margin: 1.5rem">
+                <FluentStack>
+                    <FluentLabel>Ownership</FluentLabel>
+                    <FluentSpacer Width="10"/>
+                    <FluentTextField @bind-Value="_category"></FluentTextField>
+                    <FluentSpacer Width="10"/>
+                    <FluentButton OnClick="@ApproveLoan"
+                                  Appearance="Appearance.Accent">
+                        Set Ownership
+                    </FluentButton>
+                </FluentStack>
+            </div>
+
+        </div>
+
+    </div>
+</FluentCard>

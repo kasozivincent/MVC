@@ -1,0 +1,31 @@
+﻿<div style="margin: 1rem">
+    <div>
+        <h3>@_title</h3>
+    </div>
+
+    <div style="display: flex; justify-content: space-between">
+        <div style="margin: 1rem">
+            <FluentCombobox Placeholder="Please select an account type"
+                            Items="@categories"
+                            @bind-Value="@accountCategory"
+                            />
+        </div>
+
+        <div style="margin: 1rem">
+            <div style="margin-bottom: 1rem">
+                <FluentCheckbox @bind-Value="@_ownership" Label="Foreign Owned?" DisplayName="Foreign Owned?"/>
+            </div>
+
+            <FluentButton OnClick="@CreateAccount"
+                          Appearance="Appearance.Accent">
+                Create Account
+            </FluentButton>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    
+
+}

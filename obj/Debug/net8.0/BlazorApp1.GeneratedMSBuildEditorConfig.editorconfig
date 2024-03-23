@@ -1,0 +1,55 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorApp1
+build_property.RootNamespace = BlazorApp1
+build_property.ProjectDir = C:\Users\VINCENT\source\repos\BlazorApp1\BlazorApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\VINCENT\source\repos\BlazorApp1\BlazorApp1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/Views/AccountInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudEluZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/Views/AccountsView.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNWaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/Views/CreationView.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRpb25WaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/Views/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/Views/InformationView.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25WaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VINCENT/source/repos/BlazorApp1/BlazorApp1/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

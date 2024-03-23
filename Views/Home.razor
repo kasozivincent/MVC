@@ -1,0 +1,36 @@
+﻿@page "/"
+@using BlazorApp1.Controllers
+@inject CreationController CreationController
+
+<PageTitle>Home</PageTitle>
+
+<style>
+    .shell {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        margin: auto;
+        max-width: 1200px;
+    }
+</style>
+
+<FluentStack HorizontalAlignment="HorizontalAlignment.Center">
+    <div class="shell">
+        <div style="margin-right: 2rem">
+            <FluentCard>
+                <CreationView/>
+                <FluentDivider Style="width: 100%; margin-top: 0.5rem"></FluentDivider>
+                <AccountsView/>
+            </FluentCard>
+
+        </div>
+
+        <div>
+            <InformationView/>
+        </div>
+    </div>
+</FluentStack>

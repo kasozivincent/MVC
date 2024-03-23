@@ -1,0 +1,16 @@
+﻿@using BlazorApp1.Model
+<div style="margin: 0.4rem; padding: 2px 4px; background: lavenderblush; border-radius: 4px">
+    <FluentStack>
+        <FluentLabel>Account Number: @BankAccount.AccountNumber</FluentLabel>
+        <FluentSpacer Width="10"></FluentSpacer>
+        <FluentLabel>Balance: @BankAccount.Balance</FluentLabel>
+        <FluentSpacer Width="10"></FluentSpacer>
+        <FluentLabel>Category: @BankAccount.Category</FluentLabel>
+    </FluentStack>
+</div>
+
+
+@code
+{
+    [Parameter] public BankAccount BankAccount { get; set; }
+}
